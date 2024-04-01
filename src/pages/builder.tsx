@@ -6,11 +6,10 @@ const BuilderPage: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>E-Resume: Builder</title>
-        <meta name="description" content="Single Page Resume Builder" />
-        <link rel="icon" type="image/png" href="/icons/resume-icon.png" />
+        <title>CLA Resume Builder</title>
+        <meta name="description" content="Resume Builder" />
+        <link rel="icon" type="image/png" href="/resume.jpg" />
       </Head>
-
       <BuilderLayout />
     </div>
   );

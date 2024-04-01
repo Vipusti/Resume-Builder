@@ -1,57 +1,56 @@
 {
   "basics": {
-    "name": "Jane Doe",
+    "name": "Kalash Tyagi",
     "label": "Frontend Developer",
-    "image": "https://randomuser.me/api/portraits/men/18.jpg",
-    "email": "janedoe@email.com",
-    "phone": "+91 9876543210",
-    "url": "www.e-resume.vercel.app",
+    "image": "",
+    "email": "kalash@email.com",
+    "phone": "+91 9876543290",
     "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bengaluru",
+      "city": "Noida",
       "countryCode": "",
       "region": ""
     },
-    "relExp": "4 years",
-    "totalExp": "6 Years",
+    "relExp": "3 years",
+    "totalExp": "4 Years",
     "objective": "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
     "profiles": [
       {
         "network": "linkedin",
-        "username": "sadanandpai",
-        "url": "https://www.linkedin.com/in/sadanandpai/"
+        "username": "kalash",
+        "url": "https://www.linkedin.com"
       },
       {
         "network": "twitter",
-        "username": "sadanandpai",
-        "url": "https://www.twitter.com/sadanandpai/"
+        "username": "kalash",
+        "url": "https://www.twitter.com"
       },
       {
         "network": "github",
-        "username": "sadanandpai",
-        "url": "https://github.com/sadanandpai/"
+        "username": "kalash",
+        "url": "https://github.com"
       },
       {
         "network": "hackerrank",
-        "username": "paicube",
-        "url": "https://www.hackerrank.com/paicube/"
+        "username": "kalash",
+        "url": "https://www.hackerrank.com"
       },
       {
         "network": "hackerearth",
-        "username": "sadanandpai",
-        "url": "https://www.hackerearth.com/sadanandpai/"
+        "username": "kalash",
+        "url": "https://www.hackerearth.com"
       },
       {
         "network": "codechef",
-        "username": "sadanandpai",
-        "url": "https://www.codechef.com/sadanandpai/"
+        "username": "kalash",
+        "url": "https://www.codechef.com"
       },
       {
         "network": "leetcode",
-        "username": "paicube",
-        "url": "https://leetcode.com/paicube/"
+        "username": "kalash",
+        "url": "https://leetcode.com"
       }
     ]
   },

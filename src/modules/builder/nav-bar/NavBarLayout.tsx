@@ -121,7 +121,7 @@ const NavBarLayout = () => {
   return (
     <nav className="h-14 w-full bg-resume-800 relative flex py-2.5 pl-5 pr-4 items-center shadow-level-8dp z-20 print:hidden">
       <Link href="/">
-        <Image src={'/icons/resume-icon.png'} alt="logo" height="36" width="36" />
+        <Image src={'/resume.jpg'} alt="logo" height="36" width="36" />
       </Link>
       <div className="flex-auto flex justify-between items-center ml-5">
         <NavBarMenu>
@@ -132,7 +132,7 @@ const NavBarLayout = () => {
           <NavMenuItem caption="Colours" popoverChildren={<ThemeSelect />} />
         </NavBarMenu>
         <NavBarActions>
-          <StyledButton variant="text" onClick={exportResumeData}>
+          {/* <StyledButton variant="text" onClick={exportResumeData}>
             Export
           </StyledButton>
           <StyledButton
@@ -152,17 +152,10 @@ const NavBarLayout = () => {
               accept="application/json"
               onChange={handleFileChange}
             />
-          </StyledButton>
+          </StyledButton> */}
           <PrintResume />
         </NavBarActions>
       </div>
-      <Toast
-        open={openToast}
-        onClose={() => {
-          setOpenToast(false);
-        }}
-        content={'Resume data was successfully imported.'}
-      />
     </nav>
   );
 };
