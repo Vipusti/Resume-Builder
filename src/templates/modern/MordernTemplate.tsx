@@ -12,7 +12,6 @@ import { SectionValidator } from 'src/helpers/common/components/ValidSectionRend
 
 export default function MordernTemplate() {
   const resumeData = useContext(StateContext);
-
   return (
     <div className="p-2">
       <BasicIntro

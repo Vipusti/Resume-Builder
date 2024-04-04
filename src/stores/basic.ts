@@ -6,12 +6,24 @@ import { IBasicDetailsItem, IBasicDetailsStore } from './basic.interface';
 const onChangeText = (set: SetState<IBasicDetailsStore>) => (values: IBasicDetailsItem) =>
   set({ values });
 
+// export const useBasicDetails = create<IBasicDetailsStore>(
+//   persist(
+//     (set) => ({
+//       values: resumeData.basics,
+//       reset: onChangeText(set),
+//     }),
+//     { name: 'basic' }
+//   )
+// );
 export const useBasicDetails = create<IBasicDetailsStore>(
   persist(
     (set) => ({
-      values: resumeData.basics,
-      reset: onChangeText(set),
+      values: {
+        ...resumeData.basics,
+        url: resumeData.basics.url,
+      },
+      reset: (newValues: IBasicDetailsItem) => set({ values: newValues }),
     }),
-    { name: 'basic' }
+    { name: 'basic-details' }
   )
 );

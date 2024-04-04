@@ -1,9 +1,9 @@
 import EditorLayout from './editor/EditorLayout';
-import Image from 'next/image';
+// import Image from 'next/image';
 import NavBarLayout from './nav-bar/NavBarLayout';
 import ResumeHeader from './resume/components/ResumeHeader';
 import { ResumeLayout } from './resume/ResumeLayout';
-import Tooltip from '@mui/material/Tooltip';
+// import Tooltip from '@mui/material/Tooltip';
 
 const BuilderLayout = () => {
   return (

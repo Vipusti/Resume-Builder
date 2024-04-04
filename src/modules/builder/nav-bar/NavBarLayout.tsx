@@ -18,7 +18,7 @@ import { NavMenuItem } from './components/MenuItem';
 import { PrintResume } from './components/PrintResume';
 import { TemplateSelect } from './components/TemplateSelect';
 import { ThemeSelect } from './components/ThemeSelect';
-import { Toast } from 'src/helpers/common/atoms/Toast';
+// import { Toast } from 'src/helpers/common/atoms/Toast';
 import exportFromJSON from 'export-from-json';
 import { useActivity } from 'src/stores/activity';
 import { useAwards } from 'src/stores/awards';
@@ -132,7 +132,7 @@ const NavBarLayout = () => {
           <NavMenuItem caption="Colours" popoverChildren={<ThemeSelect />} />
         </NavBarMenu>
         <NavBarActions>
-          {/* <StyledButton variant="text" onClick={exportResumeData}>
+          <StyledButton variant="text" onClick={exportResumeData}>
             Export
           </StyledButton>
           <StyledButton
@@ -152,7 +152,7 @@ const NavBarLayout = () => {
               accept="application/json"
               onChange={handleFileChange}
             />
-          </StyledButton> */}
+          </StyledButton>
           <PrintResume />
         </NavBarActions>
       </div>

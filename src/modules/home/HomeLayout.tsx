@@ -1,12 +1,12 @@
 import { NavBarActions, StyledButton } from '../builder/nav-bar/atoms';
 import { motion, useAnimation } from 'framer-motion';
 
-import { BsGithub } from 'react-icons/bs';
+// import { BsGithub } from 'react-icons/bs';
 import { Button } from '@mui/material';
-import FeatureSection from './components/Feature';
+// import FeatureSection from './components/Feature';
 import Image from 'next/image';
 import Link from 'next/link';
-import Person from './components/Person';
+// import Person from './components/Person';
 
 const HomeLayout = () => {
   const controls = useAnimation();
@@ -73,7 +73,7 @@ const HomeLayout = () => {
               <div className="flex mb-10">
                 <div className="bg-resume-800 w-1 rounded-lg"></div>
                 <p className="text-lg ml-3 text-resume-800">
-                  &ldquo;The first step to success is taking the initial leap".
+                  The first step to success is taking the initial leap.
                   <br />
                   —CLA Global
                 </p>
